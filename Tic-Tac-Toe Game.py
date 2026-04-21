@@ -1,5 +1,9 @@
+# Tic-Tac-Toe Game
+
 def print_board(board):
-    pass
+    for row in board:
+        print(" | ".join(row))
+        print("-" * 9)
 
 def check_winner(board, player):
     pass
@@ -7,8 +11,11 @@ def check_winner(board, player):
 def is_draw(board):
     pass
 
-def play_game():
+def main():
     pass
 
-if __name__ == "__main__":
-   play_game()
+
+
+
+# print_board([[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]])
+main()
