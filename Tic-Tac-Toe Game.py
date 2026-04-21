@@ -19,7 +19,11 @@ def check_winner(board, player):
     return False
 
 def is_draw(board):
-    pass
+    for row in board:
+        for spot in row:
+            if spot == " ":
+                return False
+    return True
 
 def main():
     pass
