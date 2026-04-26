@@ -5,9 +5,10 @@ def print_board(board):
     - Function to print the current state of the game board
     - This function takes a 2D list representing the game board and prints it in a formatted manner, showing the current positions of X's and O's
     """
-    for row in board:
-        print(" | ".join(row))
-        print("-" * 9)
+    for i in range(len(board)):
+        print(" | ".join(board[i]))
+        if i < 2:
+            print("-" * 9)
 
 def check_winner(board, player):
     """"
