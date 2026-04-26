@@ -99,5 +99,5 @@ def main():
         answer = input("Play again? (yes/no): ")
         if answer != "yes":
             play_again = False
-# main()
+main()
 
